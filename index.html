@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidad en CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="js/script.js">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h1>Pseudoelemento selector</h1>
+                 <p>El selector ::selection CSS pseudo-elemento aplica reglas a una porción de un documento que ha sido destacado (por ejemplo: selección con el mouse o algún otro puntero en un dispositivo) del usuario.</p>
+
+                 <h1>Pseudoelemento placeholder</h1>
+                 <p>El pseudo-elemento CSS  ::placeholder representa el texto provisional en un elemento input o un elemento textarea</p>
+                <input type="text" name="fname" placeholder="Pseudoelemento placeholder">
+
+                <h1>Pseudoelemento marker</h1>
+                <p class="fondo">El pseudo-elemento ::marker en CSS selecciona la caja de marcadores de un elemento de la lista, que normalmente contiene una viñeta o un número. Funciona en cualquier elemento o pseudo-elemento configurado para display: list-item, como el elemento li y summary (en-US)</p>
+                <ul>
+                    <li>Lunes</li>
+                    <li>Martes</li>
+                    <li>Miercoles</li>
+                    <li>Jueves</li>
+                    <li>Viernes</li>
+                    <li>Sabado</li>
+                    <li>Domingo</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h1 class="red">Hola mundo!</h1>
+            <p class="po">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, molestiae exercitationem unde quae impedit dolorem consectetur rerum nihil eaque magnam, et sint in ipsum maiores soluta rem maxime. Eveniet, voluptatibus!
+            Fugiat, perferendis voluptatibus. Tempore totam quibusdam illo error recusandae enim quam eveniet facere vitae vero ratione impedit corporis itaque voluptatibus sint consectetur, veniam doloribus quaerat alias distinctio accusamus saepe iure.
+            Unde, doloremque commodi. Officia cupiditate, tempore alias culpa quibusdam accusamus vero excepturi blanditiis doloremque adipisci quae aliquid fugit eligendi fugiat laudantium est id mollitia incidunt iure voluptates odio ex consectetur.
+            Aspernatur libero fugit, molestiae et sed nam sunt eaque delectus reprehenderit nulla aperiam perferendis provident! Praesentium, quam vel pariatur maiores tenetur culpa repudiandae delectus, commodi saepe est necessitatibus natus non!
+            Reiciendis officiis quidem expedita repellat amet libero nesciunt pariatur totam in quos quisquam facere illum, maiores aspernatur similique deserunt sit explicabo earum sint dicta rerum et. Odit quis tempora a?
+            Natus fugit, asperiores est explicabo obcaecati rerum ea voluptatem. Ducimus incidunt aliquid dicta excepturi. Illo dicta nemo delectus culpa aliquam, laudantium repellat perferendis fuga minima nostrum, et voluptatem modi numquam!</p>
+
+            <p class="fua">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus voluptas mollitia ducimus animi excepturi, laudantium, molestias atque maxime inventore nisi debitis aperiam ipsum velit fuga dolorum perspiciatis at quod!
+            Aliquam inventore esse cum quod ducimus adipisci enim deserunt. Nisi quos dolor pariatur. Officia quam officiis temporibus quas soluta porro non, quibusdam incidunt magnam ex consequatur tempore impedit deserunt sed!
+            Voluptatum quaerat consectetur soluta illo ipsam quo modi saepe voluptatem quae quas, tempore adipisci consequuntur aperiam qui deserunt magni quam placeat ex, magnam sapiente obcaecati nulla. Impedit temporibus officiis esse?
+            Eligendi ex voluptate cum tenetur! Maxime dolorum quas accusamus, corporis alias nesciunt. Nemo, nostrum voluptates dolor quam, quo minus vel sit nihil possimus dolorem amet facere debitis quia porro omnis?
+            Deleniti aliquid consectetur harum rerum laborum! Quia et ad id ipsam! Tempora incidunt laboriosam ex voluptatem enim aperiam autem, qui consectetur assumenda ipsa veniam hic illo et fugit eligendi odit.
+            Doloremque fuga cum, molestias explicabo ut repellat porro consectetur tempora quae, numquam officiis autem eos fugit quos! Harum accusantium unde possimus quisquam. Accusantium non animi doloremque repudiandae similique architecto a.</p>
+            </div>
+
+            <div class="col-4">
+                <h1>Pseudoelemento after and before</h1>
+                <p class="final"> que se duerme</p>
+                <p class="inicio">  madruga</p>
+
+                <h1>Pseudoelemento spelling-error</h1>
+                <p>El pseudo-elemento CSS ::spelling-error representa un segmento de texto que el user agent (en-US) ha marcado como deletreado incorrectamente.</p>
+                <p>Hello word, my name is Kevin Bautista, i am a anspirant</p>
+
+                <h1>Pseudoelemento grammar-error</h1>
+                <p>My friends is coming to the party tonight.</p>
+
+                
+                <p>El pseudo-elemento ::backdrop se puede usar para crear un fondo que oculte el documento subyacente detrás de la pila de la capa superior, p.ej., para el elemento que es mostrado a pantalla complete tal  y como se describe en esta especificación.</p>
+
+                <section>
+                    <div class="container">
+                        <h1 class="title">Pseudoelemento backdrop</h1>
+                    </div>
+                    <div class="content">
+                        <p>El pseudo-elemento ::backdrop se puede usar para crear un fondo que oculte el documento subyacente detrás de la pila de la capa superior, p.ej., para el elemento que es mostrado a pantalla complete tal  y como se describe en esta especificación.
+                        </p>
+                        <button class="button" onclick="opendialog()">Click here</button> 
+                    </div>
+                    <dialog>
+                        <h2>open dialog window title</h2>
+                        <p>can you see my backdrop</p>
+                        <button class="button" onclick="closedialog()"></button>
+                    </dialog> 
+                    <script>
+                        var dialog = document.querySelector('dialog');
+                        function opendialog() {
+                        dialog.showModal();
+                    }
+                    function closedialog() {
+                     dialog.close();
+                    }
+                    </script>
+                </section>
+                
+                
+                 
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</body>
+</html>

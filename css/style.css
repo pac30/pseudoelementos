@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.moa{
+    color: blueviolet;
+}
+p::first-line {
+    color: forestgreen;
+    font-variant: small-caps;
+}
+.red{
+    color: blue;
+}
+.fua::first-letter{
+    color: chartreuse;
+    font-size: 50px;
+}
+.po::first-letter{
+    color: blueviolet;
+    font-size: 50px;
+}
+p.final::after { 
+    content: " se lo lleva la corriente";
+    color: chartreuse;
+}
+p.inicio:after{
+    content: " dios lo ayuda";
+    color: blue;
+}
+p.final::before{
+    content: " Camaron";
+    color: blueviolet;
+}
+p.inicio::before{
+    content: " El que";
+    color: brown;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+::placeholder {
+    color: red;
+  }
+::marker {
+    color: crimson;
+}
+p.fondo::backdrop{
+    background-color: chartreuse;
+}
+::spelling-error {
+    color: red;
+  }
+  ::grammar-error  {
+    text-decoration: underline red;
+    background-color: red;
+  }
+dialog::backdrop{
+    background-color: #000000;
+}
